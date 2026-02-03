@@ -36,8 +36,9 @@ The **Spam_Sms_Detection** project is a Machine Learning-based classifier design
 ├── src/                # Source code for preprocessing and prediction
 ├── requirements.txt    # List of dependencies
 └── README.md           # Project documentation
+```
 
-
+---
 ## Installation & usage
     1. Clone the repository:
 
