@@ -82,3 +82,7 @@ For a Spam Detection system, **Precision** is often more critical than Accuracy.
 ### 🛠️ Key Observations
 1. **Preprocessing Impact:** Removing stop words and applying Lemmatization improved the F1-Score by approximately **3.5%**.
 2. **TF-IDF vs Bag of Words:** Using `TfidfVectorizer` yielded better results for identifying rare but significant "spammy" words compared to simple word counts.
+
+---
+## License
+Maintained By [shu7620](https://github.com/shu7620)
