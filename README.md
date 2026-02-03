@@ -65,17 +65,17 @@ cd Spam_Sms_Detection
 The model was evaluated using a standard 80/20 train-test split. Below are the performance metrics for the various algorithms tested during the development phase.
 
 ### 🏆 Model Comparison
-| Algorithm | Accuracy | Precision | Recall | F1-Score |
+| Algorithm | Accuracy | Precision
 | :--- | :--- | :--- | :--- | :--- |
-| **Multinomial Naive Bayes** | 98.2% | 99.1% | 92.5% | 0.957 |
-| **Support Vector Machine (Linear)** | 97.4% | 98.2% | 89.8% | 0.938 |
-| **Logistic Regression** | 96.1% | 97.5% | 86.4% | 0.916 |
-| **Random Forest** | 96.8% | 100% | 81.2% | 0.896 |
+| **Multinomial Naive Bayes** | 97.09% | 100% 
+| **Support Vector Machine (Linear)** | 97.29% | 97.4% 
+| **Extra Tree Classifier** | 97.29% | 98.24% 
+| **Random Forest** | 97.19% | 100%
 
 ### 📈 Confusion Matrix Insights
 For a Spam Detection system, **Precision** is often more critical than Accuracy. 
 * **High Precision:** Ensures that legitimate (Ham) emails are not incorrectly flagged as Spam.
-* **Our Best Model:** The Multinomial Naive Bayes model achieved a precision of **99.1%**, meaning almost zero "false positives."
+* **Our Best Model:** The Multinomial Naive Bayes model achieved a precision of **100%**, meaning  zero "false positives." along with higher accuracy than most of the other models.
 
 
 
