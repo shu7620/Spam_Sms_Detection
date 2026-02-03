@@ -65,11 +65,13 @@ cd Spam_Sms_Detection
 The model was evaluated using a standard 80/20 train-test split. Below are the performance metrics for the various algorithms tested during the development phase.
 
 ### 🏆 Model Comparison
-| Algorithm | Accuracy | Precision
-| **Multinomial Naive Bayes** | 97.09% | 100% 
-| **Support Vector Machine (Linear)** | 97.29% | 97.4% 
-| **Extra Tree Classifier** | 97.29% | 98.24% 
-| **Random Forest** | 97.19% | 100%
+
+| Algorithm | Accuracy | Precision |
+| :--- | :--- | :--- |
+| **Multinomial Naive Bayes** | 97.09% | 100% |
+| **Support Vector Machine (Linear)** | 97.29% | 97.4% |
+| **Extra Tree Classifier** | 97.29% | 98.24% |
+| **Random Forest** | 97.19% | 100% |
 
 ### 📈 Confusion Matrix Insights
 For a Spam Detection system, **Precision** is often more critical than Accuracy. 
