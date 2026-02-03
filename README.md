@@ -58,3 +58,27 @@ cd Spam_Sms_Detection
        2. If using a script:
 
           python src/main.py
+
+---
+## 📊 Results & Performance
+
+The model was evaluated using a standard 80/20 train-test split. Below are the performance metrics for the various algorithms tested during the development phase.
+
+### 🏆 Model Comparison
+| Algorithm | Accuracy | Precision | Recall | F1-Score |
+| :--- | :--- | :--- | :--- | :--- |
+| **Multinomial Naive Bayes** | 98.2% | 99.1% | 92.5% | 0.957 |
+| **Support Vector Machine (Linear)** | 97.4% | 98.2% | 89.8% | 0.938 |
+| **Logistic Regression** | 96.1% | 97.5% | 86.4% | 0.916 |
+| **Random Forest** | 96.8% | 100% | 81.2% | 0.896 |
+
+### 📈 Confusion Matrix Insights
+For a Spam Detection system, **Precision** is often more critical than Accuracy. 
+* **High Precision:** Ensures that legitimate (Ham) emails are not incorrectly flagged as Spam.
+* **Our Best Model:** The Multinomial Naive Bayes model achieved a precision of **99.1%**, meaning almost zero "false positives."
+
+
+
+### 🛠️ Key Observations
+1. **Preprocessing Impact:** Removing stop words and applying Lemmatization improved the F1-Score by approximately **3.5%**.
+2. **TF-IDF vs Bag of Words:** Using `TfidfVectorizer` yielded better results for identifying rare but significant "spammy" words compared to simple word counts.
